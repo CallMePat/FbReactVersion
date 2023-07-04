@@ -6,10 +6,12 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div>
-      
-      <Login/>
-      <Footer/>
+    <div className="bg-fixed bg-cover bg-center bg-gray-200">
+     <div>
+        <Login/>
+        <Footer/>
+      </div>
+
     </div>
   );
 }
